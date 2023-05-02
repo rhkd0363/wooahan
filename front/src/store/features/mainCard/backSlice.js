@@ -5,14 +5,14 @@ const initialState = {
 };
 
 export const backSlice = createSlice({
-  name: "mainBackGround",
-  initialState,
-  reducers: {
-    changeBackGround(state, action) {
-      state.page = action.payload;
-    },
-  },
-});
+    name : "mainBackGround",
+    initialState,
+    reducers : {
+        changeBackGround(state, action){
+            state.page = action.payload
+        }
+    }
+})
 
 export const backActions = backSlice.actions;
 

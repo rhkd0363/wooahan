@@ -31,7 +31,7 @@ const ModalOverlay = () => {
   );
 };
 
-const Modal = (props) => {
+const Modal = () => {
   return (
     <Fragment>
       <Overlay />

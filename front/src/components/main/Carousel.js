@@ -16,6 +16,8 @@ import bunny from "assets/images/animal/bunny.png"
 import octopus from "assets/images/animal/octopus.png"
 import fox from "assets/images/animal/fox.png"
 import {useNavigate} from 'react-router-dom';
+import { useDispatch } from "react-redux"
+import { backActions } from 'store/features/mainCard/backSlice' 
 
 const games =[
     {id: 0, title: '뛰어쓰기', animal: penguin, url: '/jump'},
@@ -26,13 +28,14 @@ const games =[
 
 const Carousel = () => {
     const nav = useNavigate();
+    const dispatch = useDispatch();
 
     const [mainCard, setMainCard] = useState(0);
 
     const changeMainCard = (num) => {
-        setMainCard(num)
+        setMainCard(num);
+        dispatch(backActions.changeBackGround(num))
     }
-
     const movePageHandler = (game, idx) => {
         if(mainCard === idx) nav(game.url)
     }
@@ -64,7 +67,7 @@ const Carousel = () => {
                         <SwiperSlide onClick={() => {movePageHandler(game, idx)}} key={game.id} id={idx} className="relative rounded-xl">
                             <CardImage coverImage={mainCard} id={idx}/>
                             <img src={games[idx].animal} 
-                                 className="ml-2 mt-2 mb-2 w-28 h-36" />
+                                 className="ml-[2%] mt-[2%] mb-[2%] w-28 h-36" />
                             <GameCard
                                 id={game.id}
                                 title={game.title}
