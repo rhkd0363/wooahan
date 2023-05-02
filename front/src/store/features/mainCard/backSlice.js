@@ -1,19 +1,18 @@
-import { createSlice } from "@reduxjs/toolkit"
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    page : 0,
-}
+  page: 0,
+};
 
 export const backSlice = createSlice({
-    name : "mainBackGround",
-    initialState,
-    reducers : {
-        changeBackGround(state, action){
-            state.page = action.payload
-            console.log(state.page);
-        }
-    }
-})
+  name: "mainBackGround",
+  initialState,
+  reducers: {
+    changeBackGround(state, action) {
+      state.page = action.payload;
+    },
+  },
+});
 
 export const backActions = backSlice.actions;
 

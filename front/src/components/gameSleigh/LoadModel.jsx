@@ -17,8 +17,6 @@ export const LoadModel = (props) => {
 
   const { actions, mixer, names } = useAnimations(animations, group);
 
-  console.log(mixer);
-
   useEffect(() => {
     actions[names[props.animationIndex]].reset().fadeIn(0.2).play();
 

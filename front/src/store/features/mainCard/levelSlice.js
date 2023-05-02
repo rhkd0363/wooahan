@@ -1,19 +1,18 @@
-import {createSlice} from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    level: 1
-}
+  level: 1,
+};
 
 export const levelSlice = createSlice({
-    name: "levelSelect",
-    initialState,
-    reducers: {
-        selectLevel(state, action){
-            state.level = action.payload
-            console.log(state.level);
-        }
-    }
-})
+  name: "levelSelect",
+  initialState,
+  reducers: {
+    selectLevel(state, action) {
+      state.level = action.payload;
+    },
+  },
+});
 
 export const levelActions = levelSlice.actions;
 
