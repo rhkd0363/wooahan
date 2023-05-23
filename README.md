@@ -11,6 +11,7 @@
   - [💙 게임선택](#-게임선택)
   - [💜 보상카드](#-보상카드)
   - [🤎 로그인](#-로그인)
+- [개발관련](#-개발관련)
 - [문서](#문서)
 - [팀원소개](#팀원-소개)
 
@@ -48,7 +49,9 @@
 
 ### 🧡 그림찾기
 
-- 하나의 단어와 두 개의 사진이 주어지면 핸드폰을 기울여 일치하는 사진으로 캐릭터가 이동하도록 중력센서를 통해 조작하는 게임.
+- 단어가 주어지면 해당 단어와 일치하는 그림을 선택하는 게임
+  - 좌우 방향 버튼을 터치하거나 기기의 중력센서를 사용해 기울임을 감지하고 좌우 방향을 판단하여 캐릭터를 해당하는 그림으로 이동시켜 게임을 진행한다.
+  - 그림를 선택하면 정답 유무를 알려주고 선택한 그림에 해당하는 단어를 TTS를 이용해 읽어준다. 
 
 <img src="https://drive.google.com/uc?export=view&id=1a4N2im_27jYHGUiVrUJA5D2AjWCRPa6C" width="600px" height="300px" title="그림찾기" alt="train"></img><br/>
 
@@ -89,6 +92,50 @@
 - 소셜로그인 (구글 로그인, 카카오 로그인) 으로 회원가입 및 로그인을 할 수 있다.
 
 <br>
+
+## 📚 개발관련
+- 하이브리드 앱(안드로이드 코틀린 + 리액트)
+  - 안드로이드 기기의 센서를 사용
+  - 웹뷰를 통해 리액트로 구성된 웹페이지에서 게임을 진행
+- 하이브리드 앱을 선택한 이유
+  - 네이티브 앱의 경우 변경사항이 생길 때마다 스토어 버전 업데이트 심사
+  - 웹의 경우 센서를 사용할 수 없어 행동을 접목한 게임 개발에 어려움이 존재
+  - 위와 같은 이유로 모바일 앱의 장점인 센서를 사용하고, 웹의 장점인 즉각적인 업데이트를 위해 하이브리드 앱을 선택
+
+<br>
+
+
+### 🖥 개발환경
+<div align = "center" style="font-size:30px">
+  <h1>🛫 Co-work tool 🛬</h1>
+<br>
+<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira Software&logoColor=white">
+<img src="https://img.shields.io/badge/Mattermost-0058CC?style=for-the-badge&logo=Mattermost&logoColor=white">
+<img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=GitLab&logoColor=white">
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
+<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
+<br>
+</div>
+<br>
+
+<div align = "center" style="font-size:30px">
+  <h1>✨ Front End Stack ✨</h1>
+<br>
+<img src="https://img.shields.io/badge/react-skyblue?style=for-the-badge&logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/redux-b22af7?style=for-the-badge&logo=redux&logoColor=white">
+<img src="https://img.shields.io/badge/createreactapp-09D3AC?style=for-the-badge&logo=createreactapp&logoColor=white">
+<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
+<img src="https://img.shields.io/badge/threejs-000000?style=for-the-badge&logo=threedotjs&logoColor=white">
+<img src="https://img.shields.io/badge/blender-F5792A?style=for-the-badge&logo=blender&logoColor=white">
+<img src="https://img.shields.io/badge/android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+<img src="https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
+  
+</div>
+
+<br>
+
 
 ---
 
