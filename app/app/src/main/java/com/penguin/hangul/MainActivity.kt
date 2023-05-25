@@ -353,9 +353,8 @@ class WarningManager(
 
     @JavascriptInterface
     fun googleLogin() {
-        val url =
-            "https://accounts.google.com/o/oauth2/auth?client_id=658207955186-n84qpvfhtdi82n6mfvbmh6v99aevulv7.apps.googleusercontent.com&redirect_uri=${baseUrl}/login/success&response_type=code&state=${device}&scope=https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile"
-        val intentBuilder = CustomTabsIntent.Builder();
+        val url = ""
+            val intentBuilder = CustomTabsIntent.Builder();
         val customTabsIntent = intentBuilder.build();
         customTabsIntent.intent.data = Uri.parse(url)
 
