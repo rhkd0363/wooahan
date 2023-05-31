@@ -45,7 +45,7 @@
   - TTS를 이용해 한글 문장을 읽어주고 띄어쓰기가 적용되어야 할 부분에서 뛰는 행동을 하면 가속도센서를 이용해 움직임을 감지하여 게임이 진행된다.
   - 한글을 배우기 시작하는 주 연령층인 5세~7세는 단어와 형태소를 구분적으로 인식하지 못하고 문장 전체를 받아들인다. 따라서 화면에 문장을 보여주고 소리로 단어의 구분을 알려주어 한글의 구성을 공부할 수 있도록 한다.
 
-<img src="https://github.com/rhkd0363/wooahan/assets/62332870/242fbd8f-7858-4c17-a9cf-9935a98aef99" width="600px" height="300px" title="뛰어쓰기" alt="뛰어쓰기"></img><br/>
+<img src="https://github.com/rhkd0363/wooahan/assets/62332870/9483e7dd-6600-42f2-8fc9-5badec647ca8" width="600px" height="300px" title="뛰어쓰기" alt="뛰어쓰기"></img><br/>
 
 ### 🧡 그림찾기
 
@@ -53,19 +53,19 @@
   - 좌우 방향 버튼을 터치하거나 기기의 중력센서를 사용해 기울임을 감지하고 좌우 방향을 판단하여 캐릭터를 해당하는 그림으로 이동시켜 게임을 진행한다.
   - 그림를 선택하면 정답 유무를 알려주고 선택한 그림에 해당하는 단어를 TTS를 이용해 읽어준다. 
 
-<img src="https://github.com/rhkd0363/wooahan/assets/62332870/4e042c54-0fa5-443a-80bd-15713210cd61" width="600px" height="300px" title="그림찾기" alt="그림찾기"></img><br/>
+<img src="https://github.com/rhkd0363/wooahan/assets/62332870/a605c6a2-a598-4d79-bd82-8c3df008b7cd" width="600px" height="300px" title="그림찾기" alt="그림찾기"></img><br/>
 
 ### 💛 한글방울
 
 - 가운데 사진 하나가 주어지고 단어 4개 중 일치하는 단어를 선택하는 게임.
 
-<img src="https://github.com/rhkd0363/wooahan/assets/62332870/95b1afa9-e3e7-4db0-bb8d-c1dc47a7d054" width="600px" height="300px" title="한글방울" alt="한글방울"></img><br/>
+<img src="https://github.com/rhkd0363/wooahan/assets/62332870/2cb97532-1255-467c-8d0b-7dd9782daaa8" width="600px" height="300px" title="한글방울" alt="한글방울"></img><br/>
 
 ### 💚 끝말기차
 
 - 주어진 글자와 일치하는 끝 글자를 가진 단어를 선택하는 게임.
 
-<img src="https://github.com/rhkd0363/wooahan/assets/62332870/337c68b0-188e-40ea-bc9f-83b5d79e45f9" width="600px" height="300px" title="끝말기차" alt="끝말기차"></img><br/>
+<img src="https://github.com/rhkd0363/wooahan/assets/62332870/887c4dba-c9aa-4491-9e98-428bafde9700" width="600px" height="300px" title="끝말기차" alt="끝말기차"></img><br/>
 
 ### 모든 게임은 동작에 따라 단어를 읽어주고, 단어의 이해를 돕기 위한 사진을 보여준다.
 
@@ -85,7 +85,7 @@
 - 무한캐러셀을 이용해 화면을 스와이프 하여 게임을 선택할 수 있다.
 - 설정화면을 통해 난이도를 선택하고 소셜로그인을 진행할 수 있다.
 
-<img src="https://github.com/rhkd0363/wooahan/assets/62332870/d233a7a6-82c8-45c4-8de1-83c4830fe385" width="600px" height="300px" title="캐러셀" alt="캐러셀"></img><br/>
+<img src="https://github.com/rhkd0363/wooahan/assets/62332870/10289189-0ed9-4536-9000-24647fa5279f" width="600px" height="300px" title="캐러셀" alt="캐러셀"></img><br/>
 ### 🤎 로그인
 
 - 안드로이드 기기 ID를 이용해 로그인하지 않은 이용자도 서비스를 이용할 수 있지만, 기기변경 시 보상 카드를 연동하려면 로그인을 하여 회원이 되어야 한다.
